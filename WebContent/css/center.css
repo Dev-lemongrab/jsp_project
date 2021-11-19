@@ -1,0 +1,70 @@
+.top_text{
+	text-align: center;
+	font-size:40px;
+	text-decoration:underline;
+	text-decoration-color : #F5F5F5;
+	text-underline-position: under;
+}
+.service_1{
+    margin-left:100px;
+   	width: 50%;
+    text-align: center;
+    line-height:43px;
+}
+.service_2{
+	margin-right:100px;
+   	width: 50%;
+    text-align: center;
+    border-left: 1px solid rgba(119, 119, 119, 0.616);
+    line-height:55px;
+    
+}
+
+.tel_call{
+	font-size: 30px;
+    font-weight: bold;
+	
+}
+
+.ser_text{
+	font-size: 30px;
+    font-weight: bold;
+	text-align : center;
+}
+.ser_text1{
+	font-size: 30px;
+    font-weight: bold;
+	text-align : center;
+}
+
+.container{
+    padding-top: 100px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+
+.service_king{
+    border: none;
+    margin-bottom: 150px;
+    margin-top:150px;
+  	display: flex;
+	background-color: #F5F5F5;	
+}
+.image3 {
+	float:center;
+
+}
+.image4 {
+	float:center;
+
+}
+.center_1{
+
+	 font-weight: bold;
+}
+
+.center_4{
+	
+	font-weight: bold;
+}

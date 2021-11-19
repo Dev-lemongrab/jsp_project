@@ -1,0 +1,113 @@
+.container{
+    padding-top: 100px;
+    margin: auto;
+    margin-top:150px;
+    text-align: center;
+}
+
+.board_table{
+    text-align: center;
+    margin: auto;
+    width: 800px;
+    border: none;
+
+}
+.container > h1{
+	font-size:40px;
+	padding-top: 10px;
+    padding-bottom: 45px;
+}
+
+
+.table_top{
+	height: 30px;
+    background: rgb(240, 239, 238);
+}
+
+.table_content{
+	height: 50px;
+}
+
+.top1{    width: 8%;}
+.top2{    width: 15%;}
+.top3{    width: 50%;}
+.top4{    width: 20%;}
+
+
+.table_form{
+    padding: 30px;
+}
+
+.table_select{
+    width: 64px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.table_search{
+    height: 30px;
+    margin-right: 10px;
+}
+
+.table_button{
+    background: rgb(252, 251, 250);
+    border: 1px solid rgb(160, 161, 160);
+    border-radius: 7%;
+    cursor: pointer;
+}
+
+
+/*board_write*/
+.title{
+    width: 100px;
+    padding: 20px;
+    text-align: center;
+    border:1px solid rgb(226, 226, 226);
+    background: rgb(241, 241, 240);
+    vertical-align : middle;
+}
+
+
+.table_text{
+	padding-top:10px ;
+    border:1px solid rgb(226, 226, 226);
+}
+
+.board_write{
+    text-align: left;
+    margin: auto;
+    width:600px;
+    border-collapse: collapse;
+}
+
+.inputtext{
+    height: 25px;
+    margin-left: 20px;
+    border:1px solid rgb(202, 202, 202);
+}
+.inputarea{
+    margin: 20px;
+    border:1px solid rgb(202, 202, 202);
+
+}
+
+.writer_botton >td{
+    text-align: right;
+    padding-top:30px ;
+}
+
+/*---board_content----*/
+.content_div{
+    text-align: left;
+    margin: auto;
+    width: 800px;
+    border: none;
+    line-height:30px;
+}
+
+.main_text{
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(224, 223, 223);
+    font-size:30px;
+}
+

@@ -1,0 +1,60 @@
+.container{
+    padding-top: 100px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+li {
+	list-style: none;
+}
+
+.faq__div > h1{
+    font-size:40px;
+    padding-bottom: 65px;
+    text-align: center;
+    text-decoration:underline;
+	text-decoration-color : #F5F5F5;
+	text-underline-position: under;
+}
+.faq__div{
+    margin: auto;
+    width: 800px;
+    border: none;
+    padding-bottom: 40px;
+}
+
+.title{
+    line-height: 40px;
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+}
+.stitle{
+    padding: 30px;
+    background: rgba(172, 170, 170, 0.048);
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.icon{
+    margin-top: 8px;
+    flex: 0.1;
+}
+
+.category{
+    flex: 0.1;
+    color: rgba(45, 45, 223, 0.808);
+    font-weight: bold;
+}
+
+.category1{
+    color:rgb(223, 41, 41);
+}
+
+
+.text{
+    padding-left: 17px;
+    text-align: left;
+    flex: 0.6;
+}
+

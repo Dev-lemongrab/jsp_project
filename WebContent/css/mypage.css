@@ -1,0 +1,92 @@
+.container{
+    padding: 30px 0;
+    margin-top: 150px;
+
+}
+
+.all{
+    width: 1000px;
+    margin: auto;
+    height: 700px;
+}
+
+.all > h1{
+    font-size:40px;
+    padding:50px 0;
+    text-align: center;
+}
+
+.top{
+	padding:30px 10px;
+    border-top: 1px solid  rgb(153, 152, 152);
+    border-bottom: 1px solid rgb(153, 152, 152);
+    line-height: 50px;
+}
+.top > .top_text{
+	font-size:14px;
+    font-weight: bold;
+}
+
+.shipping{
+    display: flex;
+}
+
+.count1{
+    flex: 1;
+    text-align: center;
+    line-height: 20px;   
+}
+
+.count1 > label{
+	height: 40px;
+	font-size:35px;
+    font-weight: bold;
+}
+
+.shipping > img{
+    padding-top: 20px;
+    height: 30px;
+}
+
+.middle{
+    margin:55px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box_content{
+    padding: 20px 7px;
+    margin: 11px;
+    width: 210px;
+    border: 1px solid rgb(211, 208, 208);
+    text-align: center;
+    cursor: pointer;
+    line-height: 15px;
+
+}
+
+.box_content >.title > img{
+    height: 16px;
+    padding-bottom: 3px;
+}
+.box_content > .title{
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    
+}
+.box_content> .title > label{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(245, 205, 73);
+}
+
+.box_content >p{
+    font-size: 11px;
+    color: rgb(153, 152, 152);
+}
+
+.box_content:hover{
+    background: rgba(218, 218, 216, 0.486);
+    transition: all 1s;
+}
