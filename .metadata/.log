@@ -126,3 +126,27 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.egit.core 4 0 2021-11-19 22:19:25.520
+!MESSAGE An exception occurred during push on URI https://github.com/Dev-lemongrab/JSP_leopard.git: https://github.com/Dev-lemongrab/JSP_leopard.git: not authorized
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: https://github.com/Dev-lemongrab/JSP_leopard.git: not authorized
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:147)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:217)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/Dev-lemongrab/JSP_leopard.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:127)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1384)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:137)
+	... 4 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2021-11-19 22:19:25.521
+!MESSAGE Can't connect to any repository: https://github.com/Dev-lemongrab/JSP_leopard.git (https://github.com/Dev-lemongrab/JSP_leopard.git: not authorized)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2021-11-19 22:19:54.025
+!MESSAGE close() called when useCnt is already zero for Repository[/Users/macbookpro/ITproject/JSP_Project/jsp_leopard/.git]
