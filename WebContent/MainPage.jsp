@@ -104,7 +104,7 @@
 	 		            <p class="product_name">${p.pro_name }</p>
 	 					<p class="product_info">${p.pro_info }</p>
 	 					<p class="price">${p.pro_price }원</p>
-	 					<span class="product_icon icon_1">자체제작</span>
+	 					<span class="product_icon icon_1">자체제작자체제작</span>
 	 					<span class="product_icon icon_2">당일배송</span>
 	 		        </td>
 	 		   	</c:when>
